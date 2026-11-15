@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102c3b">
+  <meta name="description" content="アニサキス食中毒のしくみ、症状、予防と受診の目安を公的資料に基づいて解説します。">
+  <title>アニサキスから身を守る | 食品衛生ガイド</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <aside class="edit-tools" aria-label="ページ編集ツール">
+    <button id="edit-toggle" type="button" aria-pressed="false">✎ このページを編集</button>
+    <span id="edit-hint">文章を直接クリックして書き換えられます</span>
+    <label class="edit-setting">文字
+      <select id="font-choice" aria-label="ページ全体のフォント"><option value="default">標準</option><option value="rounded">やわらかめ</option><option value="serif">明朝体</option></select>
+    </label>
+    <label class="edit-setting">色
+      <select id="color-choice" aria-label="ページの配色"><option value="sea">海</option><option value="forest">森</option><option value="sunset">夕焼け</option></select>
+    </label>
+    <label class="edit-setting">見出しボタン
+      <select id="button-position" aria-label="ヒーローのボタン位置"><option value="left">左</option><option value="center">中央</option><option value="right">右</option></select>
+    </label>
+    <button id="image-pick" type="button">画像を選ぶ</button>
+    <input id="image-file" type="file" accept="image/*" hidden>
+    <button id="edit-save" type="button">この端末に保存</button>
+    <button id="edit-download" type="button">編集版をダウンロード</button>
+    <button id="edit-reset" type="button">編集を元に戻す</button>
+    <span id="edit-status" role="status" aria-live="polite"></span>
+  </aside>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="アニサキスから身を守る トップ">
+      <span class="brand-mark" aria-hidden="true">波</span><span>FOOD SAFETY <b>魚介の安全ガイド</b></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">メニュー</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="サイト内ナビゲーション">
+      <a href="#about">アニサキスとは</a><a href="#symptoms">症状</a><a href="#prevention">予防</a><a href="#myths">よくある誤解</a><a href="#action">症状が出たら</a><a href="#sources">参考資料</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>魚介をおいしく、安全に</p>
+        <h1>見えないリスクに、<br><em>確かな備え。</em></h1>
+        <p class="hero-copy">アニサキス食中毒は、正しい知識とひと手間で予防できます。<br class="desktop">原因・症状・予防のポイントを、公的機関の情報をもとにまとめました。</p>
+        <a class="button button-light" href="#prevention">予防のポイントを見る <span aria-hidden="true">↓</span></a>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">i</span>強い腹痛があるときは、早めに医療機関へ。</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 560 430" role="img"><defs><linearGradient id="sea" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#58b6b3"/><stop offset="1" stop-color="#126b78"/></linearGradient></defs><circle cx="300" cy="210" r="188" fill="none" stroke="#ffffff" stroke-opacity=".13"/><circle cx="300" cy="210" r="145" fill="none" stroke="#ffffff" stroke-opacity=".12"/><path d="M98 215c67-83 190-109 300-4-78 107-211 108-300 4Z" fill="url(#sea)" stroke="#d6f4ed" stroke-width="3"/><path d="m390 211 88-70-19 72 19 68-88-70Z" fill="#e3b96f"/><circle cx="158" cy="205" r="7" fill="#fff"/><path d="M200 216c35-34 79-37 112-6" fill="none" stroke="#d5f1e7" stroke-width="6" stroke-linecap="round"/><path d="M271 291c-27 19-18 42 1 31 22-12 2-37 17-47 12-8 24 7 12 17" fill="none" stroke="#f7d487" stroke-width="5" stroke-linecap="round"/><circle cx="438" cy="104" r="6" fill="#f7d487"/><circle cx="105" cy="317" r="5" fill="#f7d487"/><path d="M62 119c25-19 44-19 68 0m-50 19c17-13 29-13 46 0" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/></svg>
+        <div class="art-caption"><span>01 / KNOW THE RISK</span><b>知ることから、予防が始まる。</b></div>
+      </div>
+      <div class="hero-bottom">FOOD HYGIENE STUDY <span>ANISAKIS PREVENTION</span></div>
+    </section>
+
+    <section class="quick-facts" aria-label="予防の基本数値">
+      <div class="fact-intro"><span class="section-kicker">THE KEY NUMBERS</span><h2>覚えておきたい<br>予防の基準</h2></div>
+      <article class="fact"><span class="fact-icon" aria-hidden="true">❄</span><div><span class="fact-label">冷凍</span><strong>−20℃で<br>24時間以上</strong><small>中心部まで冷凍</small></div></article>
+      <article class="fact"><span class="fact-icon heat" aria-hidden="true">♨</span><div><span class="fact-label">加熱</span><strong>70℃以上<br><small class="or">または</small> 60℃で1分</strong><small>中心部まで加熱</small></div></article>
+      <p class="fact-foot">厚生労働省が示す、アニサキス幼虫を死滅させる条件です。</p>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><span class="section-kicker">01 — ABOUT ANISAKIS</span><h2>アニサキスって<br class="mobile">どんなもの？</h2><p>アニサキスは海産魚介類に寄生する線虫の一種。食中毒の原因になるのは、その幼虫です。</p></div>
+      <div class="about-grid">
+        <div class="worm-card"><div class="worm-visual" aria-hidden="true"><svg viewBox="0 0 460 210"><path d="M58 141c35-43 69 28 109-10s42-76 86-54 40 77 79 53 44-62 73-37" fill="none" stroke="#efb95f" stroke-width="13" stroke-linecap="round"/><circle cx="404" cy="94" r="7" fill="#efb95f"/></svg><span class="measure">約2〜3cm</span></div><div class="worm-copy"><b>白く、少し太い糸のよう</b><p>魚の身や内臓にいる幼虫は、肉眼で見えることもあります。見つけたら取り除きます。</p></div></div>
+        <div class="host-card"><span class="section-kicker">寄生することがある魚介類</span><div class="fish-chips"><span>サバ</span><span>アジ</span><span>サンマ</span><span>カツオ</span><span>イワシ</span><span>サケ</span><span>イカ</span><span>ほか</span></div><p class="fine">※厚生労働省資料に記載された例です。魚種だけで安全性を判断することはできません。</p></div>
+      </div>
+      <div class="flow" aria-label="感染の流れ"><div><span>01</span><b>寄生した魚介類</b></div><i aria-hidden="true">→</i><div><span>02</span><b>生または不十分な冷凍・加熱で食べる</b></div><i aria-hidden="true">→</i><div><span>03</span><b>胃や腸の壁に入り症状が出る</b></div></div>
+      <p class="source-note">魚が死んで時間が経つと、内臓にいた幼虫が筋肉へ移動することがあります。また、魚が生きているときから筋肉にいる場合もあります。</p>
+    </section>
+
+    <section class="symptoms-section" id="symptoms"><div class="section section-inner"><div class="section-heading light-heading"><span class="section-kicker">02 — SYMPTOMS</span><h2>症状は、食べた直後とは<br class="desktop">限りません。</h2><p>症状の出方には個人差があります。時間が経ってから強い痛みが出ることもあります。</p></div><div class="symptom-grid"><article class="symptom-card"><span class="symptom-type">多くみられる</span><h3>急性胃アニサキス症</h3><div class="time"><strong>数時間〜12時間以内</strong><span>のことが多い</span></div><p>みぞおちの激しい痛み、吐き気、嘔吐。</p><div class="pain-mark" aria-hidden="true">胃</div></article><article class="symptom-card"><span class="symptom-type">腸に入った場合</span><h3>急性腸アニサキス症</h3><div class="time"><strong>十数時間後〜数日後</strong></div><p>激しい下腹部痛など。腹膜炎症状がみられることも。</p><div class="pain-mark lower" aria-hidden="true">腸</div></article><article class="symptom-card allergy"><span class="symptom-type">まれに</span><h3>アレルギー症状</h3><div class="time"><strong>じんましん など</strong></div><p>呼吸困難や血圧低下を伴うアナフィラキシーは、緊急の医療処置が必要です。</p><div class="pain-mark allergy-mark" aria-hidden="true">!</div></article></div><p class="disclaimer">症状だけで原因を自己判断することはできません。強い腹痛や呼吸の苦しさがある場合は、すぐに医療機関へ相談してください。アニサキスアレルギーは、幼虫が冷凍や加熱で死んでいても起こることがあります。</p></div></section>
+
+    <section class="section prevention-section" id="prevention"><div class="section-heading"><span class="section-kicker">03 — PREVENTION</span><h2>おいしく食べるための<br>4つの予防習慣</h2><p>家庭でできる対策を組み合わせましょう。生食用として販売されている魚介類でも、リスクがゼロとは限りません。</p></div>
+      <div class="prevention-list"><article class="prevention-item"><span class="step">01</span><div class="prevention-symbol" aria-hidden="true">❄</div><div><h3>冷凍する</h3><p class="big-rule">−20℃で24時間以上</p><p>魚の中心部まで十分に冷凍します。家庭用冷凍庫では温度や保管条件により、基準どおりの冷凍ができないことがあります。生食する場合は、冷凍処理済みの製品を選ぶなどしてください。</p></div></article><article class="prevention-item"><span class="step">02</span><div class="prevention-symbol heat-symbol" aria-hidden="true">♨</div><div><h3>中心まで加熱する</h3><p class="big-rule">70℃以上、または60℃で1分</p><p>表面だけでなく中心部まで加熱します。刺身など生食ではなく、加熱料理にするときの有効な対策です。</p></div></article><article class="prevention-item"><span class="step">03</span><div class="prevention-symbol eye-symbol" aria-hidden="true">◉</div><div><h3>目視で確認し、除去する</h3><p>身を明るい場所でよく見て、見つけた幼虫を取り除きます。ただし、目視で見つけにくい場合もあるため、目視だけで予防できるとは限りません。</p></div></article><article class="prevention-item"><span class="step">04</span><div class="prevention-symbol knife-symbol" aria-hidden="true">✳</div><div><h3>新鮮なうちに内臓を取り除く</h3><p>丸ごとの魚は購入後できるだけ早く内臓を取り除き、内臓は生で食べないようにします。鮮度を保つことも大切ですが、それだけで幼虫がいないとは言えません。</p></div></article></div>
+      <div class="callout"><span class="callout-icon">!</span><p><b>目視・鮮度管理は大切。でも、確実な対策は冷凍・加熱。</b><br>生で食べる場合は、流通・販売時の適切な冷凍処理などにも注意しましょう。</p></div>
+    </section>
+
+    <section class="myths-section" id="myths"><div class="section myths-inner"><div class="section-heading"><span class="section-kicker">04 — MYTHS & FACTS</span><h2>よくある誤解を<br>正しく知ろう。</h2></div><div class="myth-list"><article><span class="myth-label">誤解</span><p>「酢でしめれば大丈夫」</p><span class="myth-arrow">↓</span><span class="fact-label-green">正しくは</span><b>一般的な料理で使う食酢では死滅しません。</b></article><article><span class="myth-label">誤解</span><p>「しょうゆ・わさび・塩で防げる」</p><span class="myth-arrow">↓</span><span class="fact-label-green">正しくは</span><b>これらを付けても死滅しません。</b></article><article><span class="myth-label">誤解</span><p>「新鮮なら心配ない」</p><span class="myth-arrow">↓</span><span class="fact-label-green">正しくは</span><b>鮮度にかかわらず筋肉にいる場合があり、鮮度だけでは防げません。</b></article></div></div></section>
+
+    <section class="action-section" id="action"><div class="section action-inner"><div class="action-icon" aria-hidden="true">＋</div><div><span class="section-kicker">05 — IF YOU FEEL UNWELL</span><h2>症状が出たら、<br>自己判断せず受診を。</h2><p>生の魚介類を食べた後に激しい腹痛、吐き気、嘔吐などが出たら、速やかに医療機関を受診してください。食べた魚介類や食べた時刻、症状が始まった時刻を伝えると診療の参考になります。</p><div class="emergency"><b>呼吸が苦しい、意識が遠のくなどの症状</b><span>アナフィラキシーなどの可能性があります。直ちに救急要請をしてください。</span><strong>日本国内：119</strong></div><p class="medical-note">胃アニサキス症では、医療機関で内視鏡により幼虫を摘出する治療が行われることがあります。治療方法は症状や状態によって異なります。</p></div></div></section>
+
+    <section class="sources-section" id="sources"><div class="section"><div class="section-heading"><span class="section-kicker">SOURCES & NOTES</span><h2>参考資料</h2><p>内容は公的機関が公開する情報をもとに整理しました。リンク先で最新の案内をご確認ください。</p></div><ol class="source-list"><li><b>厚生労働省</b><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000042953.html" target="_blank" rel="noopener">アニサキスによる食中毒を予防しましょう ↗</a><span>予防条件、寄生魚種、症状など</span></li><li><b>厚生労働省</b><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/05107.html" target="_blank" rel="noopener">アニサキス食中毒に関するQ&amp;A ↗</a><span>症状・治療・予防に関するQ&amp;A</span></li><li><b>食品安全委員会</b><a href="https://www.fsc.go.jp/sonota/factsheets/factsheets_anisakidae.pdf" target="_blank" rel="noopener">ファクトシート「アニサキス症（概要）」[PDF] ↗</a><span>症状、発症時間などの科学的知見</span></li><li><b>農林水産省</b><a href="https://www.maff.go.jp/j/syouan/seisaku/foodpoisoning/f_encyclopedia/anisakis.html" target="_blank" rel="noopener">海の幸を安全に楽しむために〜アニサキス症の予防〜 ↗</a><span>寄生する魚介類や予防の解説</span></li><li><b>食品安全委員会</b><a href="https://www.fsc.go.jp/dial/dialqa20170608_4.html" target="_blank" rel="noopener">「食の安全ダイヤル」Q&amp;A（アニサキス） ↗</a><span>酢・塩・しょうゆ・わさび、アレルギーの説明</span></li><li><b>農林水産省（リスクプロファイル一覧）</b><a href="https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/priority/hazard_microbio3.html" target="_blank" rel="noopener">有害微生物に関する情報：アニサキス ↗</a><span>令和7年作成の食品安全委員会リスクプロファイルへのリンクを掲載</span></li></ol><div class="source-meta"><span>最終確認・閲覧日：2026年11月15日</span><span>学習目的の情報です。診断や個別の医療助言に代わるものではありません。</span></div><p class="editorial-note"><b>情報の扱い：</b>予防基準・症状・受診案内は上記公的機関の記載に基づきます。「食べた魚介類や時刻を伝える」などの説明は受診時に役立つ実用上の補足です。</p></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">波</span><span>FOOD SAFETY <b>魚介の安全ガイド</b></span></a><span>知って、選んで、安全に楽しもう。</span><a href="#top" class="back-top">ページ上部へ ↑</a><small>食品衛生学課題の学習用ページ</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
